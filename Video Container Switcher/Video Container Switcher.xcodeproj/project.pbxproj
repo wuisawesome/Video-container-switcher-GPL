@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		DF38152215F6536A00178327 /* VCS Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = DF38152115F6536A00178327 /* VCS Icon.icns */; };
-		DF482A2A15F67CB10032E69C /* ffmpeg in CopyFiles */ = {isa = PBXBuildFile; fileRef = DF482A2815F67CA40032E69C /* ffmpeg */; };
 		DF543F0415F781B3007C35E0 /* gpl.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = DF543F0115F7819F007C35E0 /* gpl.txt */; };
 		DFDC497E15F0EB4500E95041 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFDC497D15F0EB4500E95041 /* Cocoa.framework */; };
 		DFDC498815F0EB4500E95041 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFDC498615F0EB4500E95041 /* InfoPlist.strings */; };
@@ -26,7 +25,6 @@
 			dstSubfolderSpec = 7;
 			files = (
 				DF543F0415F781B3007C35E0 /* gpl.txt in CopyFiles */,
-				DF482A2A15F67CB10032E69C /* ffmpeg in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -34,7 +32,6 @@
 
 /* Begin PBXFileReference section */
 		DF38152115F6536A00178327 /* VCS Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "VCS Icon.icns"; sourceTree = "<group>"; };
-		DF482A2815F67CA40032E69C /* ffmpeg */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ffmpeg; sourceTree = "<group>"; };
 		DF543F0115F7819F007C35E0 /* gpl.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = gpl.txt; path = ../gpl.txt; sourceTree = "<group>"; };
 		DFDC497915F0EB4500E95041 /* Video Container Switcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Video Container Switcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFDC497D15F0EB4500E95041 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -66,7 +63,6 @@
 		DFDC496E15F0EB4500E95041 = {
 			isa = PBXGroup;
 			children = (
-				DF482A2815F67CA40032E69C /* ffmpeg */,
 				DF543F0115F7819F007C35E0 /* gpl.txt */,
 				DF38152115F6536A00178327 /* VCS Icon.icns */,
 				DFDC498315F0EB4500E95041 /* Video Container Switcher */,

@@ -127,7 +127,8 @@
          NSString *inFilePath = [inFile stringByDeletingLastPathComponent];
          NSString *inFileBase = [[inFile lastPathComponent] stringByDeletingPathExtension];
          NSString *outFilePath = inFilePath;
-         if ([outputPathCheckbox state] == NSOffState) outFilePath = [outputPathTextField stringValue];
+         if ([outputPathCheckbox state] == NSOffState)
+             outFilePath = [outputPathTextField stringValue];
          NSString *outFileEnd = formatPopUpButton.titleOfSelectedItem;
          NSString *outFile =
             [[outFilePath stringByAppendingPathComponent:inFileBase] stringByAppendingPathExtension:outFileEnd];
