@@ -35,6 +35,8 @@
 
 - (IBAction)hideShowHUD:(id)sender;
 
+- (BOOL) applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)sender;
+
 
 @property (assign) IBOutlet NSWindow *window;
 @property (assign) IBOutlet NSWindow *HUD;
