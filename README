@@ -4,3 +4,8 @@ https://sourceforge.net/projects/containerswitch/. The purpose of this
 fork is to move away from source forge as well as fix some bugs as the
 original repository has not been updated in some years now.
 This repository will still remain under GPL.
+Please Note: I do not have an Apple Developer Subscription so I can't sign builds of the application. 
+
+Installation:
+Download just the Yosemite (10.10.5) DMG file. I do not have a developer subscription so I can't sign the image. If you don't trust me (as you shouldn't) download and build the application yourself using xCode. (Open the project product > archive + export application).
+
